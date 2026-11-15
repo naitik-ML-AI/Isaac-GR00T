@@ -70,7 +70,6 @@ getting_started/    # User-facing guides and notebooks
 - CI runs CPU and GPU tests in separate jobs with 300s timeout
 
 ## Deployment platforms
-
 - **dGPU (H100, A100, RTX):** CUDA 12.8 — install via `scripts/deployment/dgpu/install_deps.sh`, container via top-level `docker/Dockerfile` (supports x86_64 and aarch64)
 - **Jetson Orin:** JetPack 7.2 / CUDA 13.2 — install via `scripts/deployment/orin/install_deps.sh`, container via `scripts/deployment/orin/Dockerfile`
 - **Jetson Thor:** JetPack 7.2 / CUDA 13.2 — install via `scripts/deployment/thor/install_deps.sh`, container via `scripts/deployment/thor/Dockerfile`
